@@ -1,23 +1,26 @@
 {
-    "ts-node": {
-      "files": true
-    },
-    "compilerOptions": {
-      "outDir": "./dist",
-      "incremental": true,
-      "target": "ESNext",
-      "module": "CommonJS",
-      "declaration": true,
-      "sourceMap": true,
-      "strict": true,
-      "noImplicitAny": false,
-      "moduleResolution": "node",
-      "isolatedModules": true,
-      "esModuleInterop": true,
-      "skipLibCheck": true,
-      "forceConsistentCasingInFileNames": true,
-      "typeRoots": ["./typings"],
-      "composite": true,
+  "ts-node": {
+    "files": true
+  },
+  "compilerOptions": {
+    "outDir": "./dist",
+    "incremental": true,
+    "target": "ESNext",
+    "module": "CommonJS",
+    "declaration": true,
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["./typings"],
+    "composite": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
     }
   }
-  
+}
