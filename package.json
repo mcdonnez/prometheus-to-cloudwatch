@@ -1,0 +1,21 @@
+{
+  "name": "prometheus-to-cloudwatch",
+  "version": "1.0.0",
+  "description": "Send Prometheus Metrics to Cloudwatch",
+  "main": "dist/src/run.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch": "^3.484.0",
+    "shallow-equal": "^3.1.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  }
+}
