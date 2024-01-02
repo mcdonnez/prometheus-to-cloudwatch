@@ -13,6 +13,7 @@ Here are the following environment variables needed:
 ## Required
 AWS_ACCESS_KEY_ID
 AWS_SECRET_ACCESS_KEY
+# AWS credentials should have permissions to post metrics to cloudwatch
 
 # Optional
 NAMESPACE # Cloudwatch Namespace
