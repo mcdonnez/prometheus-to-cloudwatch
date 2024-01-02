@@ -24,6 +24,7 @@ intervalPeriod # defaults to 60000
 path # defaults to /metrics
 ```
 
+Here are the necessary commands to get started.
 
 ```bash
 npm install
