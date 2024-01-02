@@ -1,7 +1,7 @@
 # prometheus-to-cloudwatch
 Send Prometheus Metrics to Cloudwatch
 
-This current supports Counters, Gauges, and Histograms. Other Metric types are not supported (yet...).
+This implementation currently supports Counters, Gauges, and Histograms. Other Metric types are not supported (yet...).
 
 ## Getting Started
 
