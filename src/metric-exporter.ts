@@ -215,10 +215,10 @@ const getMetrics = async (): Promise<PrometheusMetric[]> => {
 const client = new CloudWatchClient({ region: "us-east-1" });
 
 export const startMetricExporter = async function startMetricExporter() {
-  if (config.env === "dev") {
-    logger.info("Skipping metric exporter in dev environment");
-    return;
-  }
+//   if (config.env === "dev") {
+//     logger.info("Skipping metric exporter in dev environment");
+//     return;
+//   }
 
   logger.info("Starting metric exporter");
   const interval = setInterval(async () => {

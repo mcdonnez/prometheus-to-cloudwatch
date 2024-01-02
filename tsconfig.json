@@ -6,7 +6,7 @@
       "outDir": "./dist",
       "incremental": true,
       "target": "ESNext",
-      "module": "ESNext",
+      "module": "CommonJS",
       "declaration": true,
       "sourceMap": true,
       "strict": true,

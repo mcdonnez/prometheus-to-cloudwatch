@@ -4,6 +4,7 @@
   "description": "Send Prometheus Metrics to Cloudwatch",
   "main": "dist/src/run.js",
   "scripts": {
+    "start": "node dist/src/run.js",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
